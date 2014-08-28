@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a71d1a-f979-485c-b34c-ec1489b8dfe6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="$PROJECT_DIR$/app/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="microteach.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,10 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014_08_22_155647_create_attendace_report_details_table.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2014_08_22_155647_create_attendace_report_details_table.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_155647_create_attendace_report_details_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="9" selection-start="315" selection-end="315" vertical-scroll-proportion="0.6025317" vertical-offset="0" max-vertical-offset="816">
+            <state line="15" column="9" selection-start="315" selection-end="315" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="816">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="69" selection-start="83" selection-end="83" vertical-scroll-proportion="0.040380046" vertical-offset="0" max-vertical-offset="421">
               <folding />
             </state>
           </provider>
@@ -76,6 +84,7 @@
         <option value="$PROJECT_DIR$/app/database/migrations/2014_08_22_101741_create_villages_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_08_22_155552_create_attendace_reports_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_08_22_155647_create_attendace_report_details_table.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -178,46 +187,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="microteach" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="microteach" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="microteach" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="microteach" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -275,7 +244,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29827315" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -435,7 +404,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_155647_create_attendace_report_details_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="315" selection-end="315" vertical-scroll-proportion="0.6025317" vertical-offset="0" max-vertical-offset="816">
+        <state line="15" column="9" selection-start="315" selection-end="315" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="69" selection-start="83" selection-end="83" vertical-scroll-proportion="0.040380046" vertical-offset="0" max-vertical-offset="421">
           <folding />
         </state>
       </provider>
