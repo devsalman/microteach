@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a71d1a-f979-485c-b34c-ec1489b8dfe6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="microteach.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,28 +30,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2014_08_22_155552_create_attendace_reports_table.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_155552_create_attendace_reports_table.php">
+      <file leaf-file-name="2014_08_29_015131_create_app_menus_table.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_29_015131_create_app_menus_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="32" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="782">
+            <state line="30" column="31" selection-start="562" selection-end="562" vertical-scroll-proportion="-7.8461537" vertical-offset="289" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014_08_22_155647_create_attendace_report_details_table.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_155647_create_attendace_report_details_table.php">
+      <file leaf-file-name="2014_08_29_014311_create_account_roles_table.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_29_014311_create_account_roles_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="9" selection-start="315" selection-end="315" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="816">
+            <state line="33" column="0" selection-start="597" selection-end="597" vertical-scroll-proportion="-10.461538" vertical-offset="272" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
+      <file leaf-file-name="Migrator.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="69" selection-start="83" selection-end="83" vertical-scroll-proportion="0.040380046" vertical-offset="0" max-vertical-offset="421">
+            <state line="297" column="0" selection-start="7891" selection-end="7891" vertical-scroll-proportion="-10.0" vertical-offset="4772" max-vertical-offset="6579">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014_08_29_015240_create_access_controls_table.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_29_015240_create_access_controls_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="40" selection-start="840" selection-end="840" vertical-scroll-proportion="-10.461538" vertical-offset="357" max-vertical-offset="799">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014_08_29_021232_update_map_accounts_to_roles.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_29_021232_update_map_accounts_to_roles.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="0.45454547" vertical-offset="238" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -85,6 +104,13 @@
         <option value="$PROJECT_DIR$/app/database/migrations/2014_08_22_155552_create_attendace_reports_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_08_22_155647_create_attendace_report_details_table.php" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_08_29_015131_create_app_menus_table.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_08_29_015010_create_user_roles_table.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_08_29_015010_create_account_roles_table.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_08_29_014311_create_account_roles_table.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_08_29_015240_create_access_controls_table.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_08_29_021232_update_map_accounts_to_roles.php" />
       </list>
     </option>
   </component>
@@ -183,7 +209,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microteach" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microteach" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microteach" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microteach" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microteach" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microteach" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microteach" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microteach" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -244,7 +342,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29827315" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -286,18 +384,28 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_155552_create_attendace_reports_table.php">
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+        <state line="27" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_155647_create_attendace_report_details_table.php">
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="28" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="816">
+        <state line="27" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_155552_create_attendace_reports_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="32" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_155647_create_attendace_report_details_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="28" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_155330_create_peoples_table.php">
@@ -340,11 +448,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="174" selection-end="174" vertical-scroll-proportion="0.272" vertical-offset="0" max-vertical-offset="714" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="35" selection-start="2144" selection-end="2144" vertical-scroll-proportion="1.9493333" vertical-offset="510" max-vertical-offset="2210" />
@@ -353,16 +456,6 @@
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_101524_create_provinces_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="33" selection-start="394" selection-end="394" vertical-scroll-proportion="-9.153846" vertical-offset="51" max-vertical-offset="646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_155330_create_peoples_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="33" selection-start="953" selection-end="953" vertical-scroll-proportion="-6.6538463" vertical-offset="303" max-vertical-offset="1258" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_093044_create_accounts_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="33" selection-start="516" selection-end="516" vertical-scroll-proportion="-8.615385" vertical-offset="116" max-vertical-offset="697" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_101626_create_cities_table.php">
@@ -397,21 +490,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_155552_create_attendace_reports_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="782">
-          <folding />
-        </state>
+        <state line="25" column="32" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_155647_create_attendace_report_details_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="315" selection-end="315" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="15" column="9" selection-start="315" selection-end="315" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="69" selection-start="83" selection-end="83" vertical-scroll-proportion="0.040380046" vertical-offset="0" max-vertical-offset="421">
+        <state line="1" column="69" selection-start="83" selection-end="83" vertical-scroll-proportion="0.040380046" vertical-offset="0" max-vertical-offset="421" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="0.77468354" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_155330_create_peoples_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="33" selection-start="953" selection-end="953" vertical-scroll-proportion="-6.6538463" vertical-offset="303" max-vertical-offset="1258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_22_093044_create_accounts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="33" selection-start="516" selection-end="516" vertical-scroll-proportion="-8.615385" vertical-offset="116" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.689759" vertical-offset="561" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="36" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="297" column="0" selection-start="7891" selection-end="7891" vertical-scroll-proportion="-10.0" vertical-offset="4772" max-vertical-offset="6579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_29_014311_create_account_roles_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="597" selection-end="597" vertical-scroll-proportion="-10.461538" vertical-offset="272" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_29_015131_create_app_menus_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="31" selection-start="562" selection-end="562" vertical-scroll-proportion="-7.8461537" vertical-offset="289" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_29_015240_create_access_controls_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="40" selection-start="840" selection-end="840" vertical-scroll-proportion="-10.461538" vertical-offset="357" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_29_021232_update_map_accounts_to_roles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="0.45454547" vertical-offset="238" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
