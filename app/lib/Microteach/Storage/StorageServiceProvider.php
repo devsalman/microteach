@@ -15,13 +15,16 @@ class StorageServiceProvider extends ServiceProvider {
 
     public function register()
     {
-        $this->app->bind('Account', function() {
+        $this->app->bind('Account', function(){
                 return new \Account();
-            }
-        );
+        });
 
         $this->app->bind('Province', function() {
             return new \Province();
+        });
+        
+        $this->app->bind('City', function() {
+            return new \City();
         });
     }
 } 

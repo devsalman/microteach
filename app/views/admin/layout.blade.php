@@ -60,7 +60,7 @@
                 <!-- Main navigation -->
                 <ul class="navigation widget">
                     <li><a href="index.html" title=""><i class="icon-home"></i>{{ Lang::get('navigation.dashboard') }}</a></li>
-                    <li><a href="#" title="" class="expand"><i class="icon-reorder"></i>{{ Lang::get('navigation.master_data') }}<strong>3</strong></a>
+                    <li><a href="#" title="" class="expand"><i class="icon-reorder"></i>{{ Lang::get('navigation.master_data') }}<strong>4</strong></a>
                         <ul>
                             <li><a href="{{ URL::to('admin/master/province') }}" title="">{{ Lang::get('navigation.province') }}</a></a></li>
                             <li><a href="{{ URL::to('admin/master/city') }}" title="">{{ Lang::get('navigation.city') }}</a></li>

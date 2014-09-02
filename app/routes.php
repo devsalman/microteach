@@ -31,4 +31,13 @@ Route::get('/admin/dashboard', function()
 });
 
 /** Rotues for master data */
-Route::get('/master/province', 'ProvinceController@index');
+Route::get('admin/master/province', 'ProvinceController@index');
+Route::get('admin/master/city', 'CityController@index');
+Route::get('admin/master/district', 'DistrictController@index');
+Route::get('admin/master/village', 'VillageController@index');
+
+/** Routes for ajax call */
+Route::get('ajax/getDTProvinces', 'ProvinceController@ajaxDTGetProvinces');
+Route::get('ajax/getDTCities', 'CityController@ajaxDTGetCities');
+Route::get('ajax/getDTDistricts', 'DistrictController@ajaxDTGetDistricts');
+Route::get('ajax/getDTVillages', 'VillageController@ajaxDTGetVillages');

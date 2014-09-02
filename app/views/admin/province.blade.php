@@ -66,10 +66,38 @@
 @section('scripts')
 <script type="text/javascript">
     var oTable = $('#data-table').dataTable({
+        "processing": true,
+        "serverSide": true,
+        "ajax": '/ajax/getDTProvinces',
         "bJQueryUI": false,
         "bAutoWidth": false,
         "sPaginationType": "full_numbers",
         "sDom": '<"datatable-header"fl>t<"datatable-footer"ip>',
+        "columnDefs": [
+            {
+                "targets": 0,
+                "data": null,
+                "defaultContent": 1
+            },
+            {
+                "targets": 1,
+                "data": "name"
+            },
+            {
+                "targets": 2,
+                "data": null,
+                "defaultContent": "<ul class='table-controls'>"
+                        + "<li><a href='#' class='tip' title='{{ Lang::get('tooltip.edit') }}'><i class='icon-edit'></i></a></li>"
+                        + "<li><a href='#' class='tip' title='{{ Lang::get('tooltip.delete') }}'><i class='icon-remove'></i></a></li>"
+                        + "</ul>"
+            }
+        ],
+        "rowCallback": function(row, data, index) {
+            $('td:eq(0)', row).html(index + 1);
+        },
+        "drawCallback": function(settings) {
+            $('.tip').tooltip();
+        },
         "oLanguage": {
             "sSearch": "<span>Filter records:</span> _INPUT_",
             "sLengthMenu": "<span>Show entries:</span> _MENU_",
