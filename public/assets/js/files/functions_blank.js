@@ -34,28 +34,6 @@ $(function() {
 		tabActiveClass: "current"
 	});
 
-
-
-	//===== Google map settings =====//
-
-	function initialize()
-	{
-		var mapProp= {
-			center: new google.maps.LatLng(-37.814666,144.982452),
-			zoom: 12,
-			mapTypeId:google.maps.MapTypeId.ROADMAP
-		};
-		var map=new google.maps.Map(document.getElementById("google-map"),mapProp);
-
-		$('.actions').bind('easytabs:after', function() {
-			google.maps.event.trigger(map, 'resize');
-			map.setCenter(new google.maps.LatLng(-37.814666,144.982452));
-		});
-	};
-	google.maps.event.addDomListener(window, 'load', initialize);
-
-
-
 	//===== Collapsible plugin for main nav =====//
 	
 	$('.expand').collapsible({
@@ -66,4 +44,6 @@ $(function() {
 		speed: 200
 	});
 
+    //===== Tooltip =====//
+    $('.tip').tooltip();
 });

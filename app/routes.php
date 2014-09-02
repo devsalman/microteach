@@ -15,3 +15,20 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+/** Routes for account features */
+Route::get('/account/login', function()
+{
+    return View::make('login');
+});
+
+Route::post('/account/login', 'AccountController@login');
+
+/** Routes for admin features */
+Route::get('/admin/dashboard', function()
+{
+    return View::make('admin/dashboard');
+});
+
+/** Rotues for master data */
+Route::get('/master/province', 'ProvinceController@index');
